@@ -1,5 +1,14 @@
-RAG Pipeline
- Technical Documentation:
+Multilingual PDF RAG System with Jina and XGLM
+
+
+Background: Our organization needs to develop a Retrieval-Augmented Generation (RAG) system capable of processing multilingual PDFs, extracting information, and providing summaries and answers to questions based on the content. The system should handle various languages including Urdhu, English, Bengali, and Chinese, and be able to process both scanned and digital PDFs
+
+Objective:  Develop a RAG pipeline for summarizing content and answering questions based on the input PDFs. The system should be scalable to handle large amounts of data (up to 1TB) and provide accurate, relevant responses.
+
+
+
+
+Technical Documentation:
 A. Text extraction technique using OCR from PDF: 
 1. Setup and Library Import
 	Imports necessary libraries:
